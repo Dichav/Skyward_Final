@@ -1,0 +1,15 @@
+#pragma strict
+
+
+function OnTriggerStay(other:Collider){
+	if(other.gameObject.tag == "Player"){
+    transform.parent = other.transform;
+ 	}
+}
+ //changed this to "player". Sticks to platform, but platform doesn't moves anymore
+ 
+function OnTriggerExit(other:Collider){
+	if(other.gameObject.tag == "Player"){
+    transform.parent = null;    
+    }
+}  
