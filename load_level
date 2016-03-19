@@ -1,0 +1,7 @@
+#pragma strict
+
+function OnCollisionEnter (myCollision : Collision) {
+	if(myCollision.gameObject.name == "this"){
+	Application.LoadLevel("Diana_Level");
+	}
+}
