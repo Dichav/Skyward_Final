@@ -1,0 +1,13 @@
+#pragma strict
+
+public var speed: float;
+public var distance: float;
+public var start: float;
+
+function Start () {
+
+}
+	
+function Update (){
+   transform.position.y = Mathf.PingPong(Time.time * speed, distance) + start;
+}
