@@ -8,7 +8,8 @@ Pickup Script
 Diana:
 Character Controller & Camera,
 Moving Platforms,
-Change Levels
+Change Levels,
+GUI
 
 Dylan:
 Character Controller & Camera
