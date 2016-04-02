@@ -12,4 +12,6 @@ Change Levels,
 GUI
 
 Dylan:
-Character Controller & Camera, debugging
+Character Controller & Camera, 
+Boss,
+debugging
