@@ -3,7 +3,10 @@
 Alex:
 Trap Script,
 Health Script,
-Pickup Script
+Pickup Script,
+Animations,
+Attacking,
+Checkpoints
 
 Diana:
 Character Controller & Camera,
